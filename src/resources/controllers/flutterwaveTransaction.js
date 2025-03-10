@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
-import { errorResMsg, successResMsg } from "../../../utils/lib/response.js";
+import { errorResMsg, successResMsg } from "../../utils/lib/response.js";
 import Transaction from "../models/transaction.model.js";
 import User from "../models/user.js";
-import logger from "../../../utils/log/logger.js";
+import logger from "../../utils/log/logger.js";
 import dotenv from 'dotenv';
 dotenv.config();
 
